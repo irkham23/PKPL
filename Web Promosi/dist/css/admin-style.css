@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+body{
+  background: #EEEEEE;
+}
+
+.header {
+  width: 100%; 
+  position: fixed;
+  background: black; 
+  height: 50px;
+}
+
+.header h3 {
+  color: white;
+  padding: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: 0;
+  background: #1b1b1b;
+  margin-top: 50px;
+}
+
+.sidebar .text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: #1e1e1e;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  background: #1b1b1b;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  line-height: 60px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  padding-left: 20px;
+  width: 100%;
+  border-left: 3px solid transparent;
+  position: relative;
+}
+
+nav ul li a:hover{
+   color: cyan;
+   background: #1e1e1e;
+   border-left-color: cyan;
+}
+
+nav ul ul {
+  position: static;
+  display: none;
+}
+
+nav ul .prod-show.show{
+  display: block;
+}
+
+nav ul .ord-show.show1{
+  display: block;
+}
+
+nav ul ul li {
+  line-height: 41px;
+  border-bottom: none;
+}
+
+nav ul ul li a {
+  font-size: 17px;
+  color: #e6e6e6;
+  padding-left: 40px;
+}
+
+nav ul li a span {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 22px; 
+  transform: translateY(-50%);
+  transition: transform 0.4s;
+}
+
+nav ul li a:hover span{
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.dashboard {
+  padding-left: 300px;
+  padding-top: 80px;
+}
+
+.sales {
+  background: white;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+}
+
+.sales h5 { 
+  color: grey;
+  margin-top: 20px;
+  float: right;
+  margin-right: 90px;
+  font-weight: 550;
+}
+
+.sales p {
+  margin-left: 70px;
+  font-size: 1em; 
+  color: grey;
+  margin-top: -10px;
+}
+
+.sales img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 70%;
+}
+
+.latest-orders {
+  background: white;
+  margin-top: 10px;
+  width: 94%;
+  height: 100%;
+}
+
+.latest-orders h5 {
+  padding: 20px;
+  font-weight: 550;
+}
+
+.relief {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Gill Sans", sans-serif;
+  font-style: bold;
+
+}
+
+.produk {
+  width: 100%;
+  padding:70px;
+  margin-left: 170px;
+}
+
+.list-produk
+{
+    border: 1px solid gainsboro;
+    display: inline-block;
+    margin: 5px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px black;
+}
+ 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: black;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 600px) and (min-width: 200px) {
+   .list-produk {
+      width: 200px;
+   }
+
+}
+ 
+/*untuk layar device berukuran sedang*/
+@media (max-width: 1000px) and (min-width: 600px) {
+   .list-produk {
+       width: 210px;
+   }
+   
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 1000px) {
+   .list-produk {
+       width: 250px;
+   }
+   
+}

@@ -1,0 +1,392 @@
+.produk {
+	background-color: white;
+}
+
+.homepage {
+  background-color: black;
+}
+hr {
+	color: white;
+}
+
+.error {
+  color: red;
+}
+
+.header {
+	margin-top: 60px;
+	background-image: url(../../image/background/back.jpg);
+	background-size: cover;
+	height: 600px;
+	padding: 200px 0;
+}
+
+.font p{
+	color: white;
+	font-family: arial, verdana, sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.Set-Alamat {
+  margin-top: 60px;
+  color: white;
+}
+
+.About {
+	margin-top: 60px;
+	color: white;
+}
+
+.Product {
+	margin-top: 250px;
+	color: white;
+	font-size: 2em;
+	font-family: Georgia, serif;
+}
+
+.Product img {
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	height: 60%;
+  	margin-top: 30px;
+}
+
+.Contact {
+	margin-top: 250px;
+	color: white;
+	font-size: 1em;
+}
+
+.Contact img {
+	width: 60px;
+}
+
+.Contact button{
+	color: white;
+}
+
+.footer {
+	margin-top: 350px;
+	color: white;
+	font-size: 1em;
+}
+
+.relief {
+	margin-top: 60px;
+	color: white;
+	font-size: 1.3em;
+	font-family: "Gill Sans", sans-serif;
+	font-style: bold;
+}
+
+.cart {
+  margin-top: 70px;
+  color: black;
+  font-size: 1.3em;
+  font-family: "Gill Sans", sans-serif;
+  font-style: bold;
+}
+
+.cart h3 {
+  float: left;
+}
+
+.cart .belanja {
+  float: right;
+  margin-right: 20px;
+}
+
+.cart .checkout {
+  float: right;
+  margin-right: 20px;
+}
+
+.form-control {
+  width: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hapus {
+  width: 70px;
+}
+
+.update {
+  width: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.grid-item img {
+	max-width: 100%;
+  	height: 60%;
+}
+
+.whatsapp img{
+	width: 50px;
+}
+
+.produk {
+  width: 100%;
+  text-align: justify;
+}
+
+.list-produk
+{
+    border: 1px solid gainsboro;
+    display: inline-block;
+    margin: 5px;
+}
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: black;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.tombol
+{
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+    text-decoration: none;
+}
+ 
+.tombol-detail
+{
+    background-color: green;
+    float: left;
+}
+ 
+.tombol-beli
+{
+    background-color: red;
+    float: right;
+}
+
+.text_login{
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.login{
+  border-radius: 20px;
+  width: 350px;
+  background: #f7f7f7;
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+.metode-bayar{
+  border-radius: 20px;
+  width: 350px;
+  border-style: solid;
+  background: white;
+  color: black;
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+.register{
+  border-radius: 20px;
+  width: 350px;
+  background: #f7f7f7;
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+label{
+  font-size: 11pt;
+}
+
+.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+}
+
+.form_user{
+  margin-top: 10px;
+  box-sizing : border-circle;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.form_password{
+  margin-top: 10px;
+  box-sizing : border-circle;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.masuk{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f7f7;
+  color: black;
+  font-size: 11pt;
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.daftar {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.submenu{
+  text-align: left;
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  width: 222px;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 9999;
+}
+.menu_item:hover .submenu{
+  display: block;
+}
+.submenu_item:hover{
+  background-color: rgba(0,0,0,0.5);
+  border-left: 4px solid #c88221;
+}
+.submenu_item{
+  border-left: 4px solid transparent;
+  font-size: 0.8em;
+  display: block;
+  z-index: 9999;
+}
+
+h2{
+  color: #4311CF;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th  {
+    background-color: black;
+    color: white;
+}
+#saveimg{
+  width: 20px;
+  height: 20px;
+}
+table tr td input{
+  width: 40px;
+}
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 600px) and (min-width: 200px) {
+   .list-produk {
+      width: 200px;
+   }
+   .isi-stok{
+      display: none;
+   }
+   .stok{
+      display: none;
+   }
+   .harga{
+      display: none;
+   }
+   .isi-harga{
+      display: none;
+   }
+   .total{
+      font-size: 0.8em;
+      text-align: right;
+   }
+
+}
+ 
+/*untuk layar device berukuran sedang*/
+@media (max-width: 1000px) and (min-width: 600px) {
+   .list-produk {
+       width: 210px;
+   }
+   .total{
+      font-size: 1em;
+   }
+   .enter-cart{
+      display: none;
+   }
+   
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 1000px) {
+   .list-produk {
+       width: 250px;
+   }
+   .total{
+      font-size: 1.2em;
+   }
+   .enter-cart{
+      display: none;
+   }
+   
+}
